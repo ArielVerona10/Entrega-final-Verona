@@ -1,0 +1,39 @@
+header{
+    background-color: $color-principal;
+    margin: 10px 50px;
+    padding: 10px 30px;
+    display: flex;
+    .bg-c{
+        background-color: $color-principal;
+    }
+    .menu-color:hover{
+        background-color: $color-secundario;
+    }
+    img{
+        width: 25%;
+    }
+    nav{
+        ul{
+            list-style: none;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            font-weight: 500;
+            text-transform: capitalize;
+            display: flex;
+            gap: 150px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+   header {
+    background-color: $color-principal;
+} 
+}
+    
+@media screen and (min-width: 1024px) {
+   header {
+        background-color: $color-principal;
+    } 
+}
+    

@@ -1,0 +1,14 @@
+main{
+    h1{
+    text-align: center;
+    color: #0072E1;
+    text-shadow: -10px -10px 15px gray;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-top: 40px;
+    }
+    h1:hover{
+        color: $color-secundario;
+    }
+}

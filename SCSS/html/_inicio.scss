@@ -1,0 +1,75 @@
+.init{
+    .div-uno{
+        img{
+            margin-top: 50px;
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+        }
+        @include flex
+        
+    }
+    .div-dos{
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 35px;
+            margin-bottom: 100px;
+            background-color: $color-principal;
+            margin: 30px 70px;
+            @include flex
+        }
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .init{
+        .div-uno{
+            img{
+                width: 70%;
+                height: 70%;
+                object-fit: cover;
+            }
+        }
+        .div-dos{
+            .p-uno{
+                background-color: $color-principal;
+                color: black;
+                padding: 0px 100px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+           
+        }
+    }
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .init{
+        .div-uno{
+            img{
+                width: 50%;
+                height: 50%;
+                object-fit: cover;
+            }
+        }
+        .div-dos{
+            .p-uno{
+                background-color: $color-principal;
+                color: black;
+                padding: 0px 100px;
+                margin-top: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+        }
+    }
+}

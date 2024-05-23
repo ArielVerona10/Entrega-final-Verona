@@ -1,0 +1,10 @@
+@mixin flex{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}

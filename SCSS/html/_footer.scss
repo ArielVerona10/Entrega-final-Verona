@@ -1,0 +1,15 @@
+footer{
+    background-color: $color-secundario;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 650;
+    margin: 50px 20px 20px 20px;
+    padding: 0 30px;
+    box-shadow: -20px 30px 30px grey;
+    
+}
+footer:hover{
+    color: $color-principal;
+}
+
